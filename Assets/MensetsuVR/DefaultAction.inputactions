@@ -1,0 +1,141 @@
+{
+    "name": "DefaultAction",
+    "maps": [
+        {
+            "name": "OculasAction",
+            "id": "773d0bc6-f4a8-4280-9c29-ee5873a3c87f",
+            "actions": [
+                {
+                    "name": "ChangeItem",
+                    "type": "Button",
+                    "id": "18909ce6-c61b-4fd6-a364-55f907451fc4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Enter",
+                    "type": "Button",
+                    "id": "51351ff2-48b2-4bb8-a76d-ecebcfb6b5a1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerEnter",
+                    "type": "Button",
+                    "id": "49093557-7ba3-457f-8803-aa114713c7f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b1c4c0a0-2904-482c-b0dc-1d1cbf699df9",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c2206db-fc55-444d-8e05-c648d915d753",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5df47926-bb91-4f1f-be3f-46949d4e849c",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "134b1924-248f-4af6-abb5-9a839ee0e9d0",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerEnter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ResultAction",
+            "id": "64a32c6f-9af5-4d9e-9077-c56c1888742c",
+            "actions": [
+                {
+                    "name": "Enter",
+                    "type": "Button",
+                    "id": "98986c21-bade-4360-ace5-17aa8d502df5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f926912c-6df5-41a2-8c54-8c98e839ed3c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TitleScene",
+            "id": "41d9a7ab-aa6a-4fa2-8cc7-7810c38942ef",
+            "actions": [
+                {
+                    "name": "Enter",
+                    "type": "Button",
+                    "id": "80c81176-e983-44c5-9225-92da709f2c3d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "39af5f06-03cc-4304-9162-a45a77a85909",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Enter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

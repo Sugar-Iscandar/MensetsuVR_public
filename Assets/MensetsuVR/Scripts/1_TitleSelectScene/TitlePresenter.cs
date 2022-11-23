@@ -11,10 +11,13 @@ public class TitlePresenter : MonoBehaviour
 
     void Awake()
     {
-        manager.OnInit += () => titleView.Init();
-        manager.OnInit += () => selView.Init();
-        manager.OnInit += () => hmdView.Init();
-        manager.OnInit += () => hmdView.FadeOutBlack();
+        manager.OnInit += () => 
+        {
+            titleView.Init();
+            selView.Init();
+            hmdView.Init();
+            hmdView.FadeOutBlack();
+        };
         titleView.OnEnterButtonClicked += () => manager.ActiveCompanySelection();
         titleView.OnQuitButtonClicked += () => manager.QuitApplication();
         manager.OnCompanySelectionActived += (companies) => selView.ShowCompanyData(companies);
